@@ -1,6 +1,6 @@
 <h1>All characters</h1>
-<ul>
-  <% @characters.each do |character| %>
-    <li><%= character.name %></li>
+<% @characters.each do |character| %>
+  <%= link_to character_path(character.id) do %>
+    <ul><%= character.name %></ul>
   <% end %>
-</ul>
+<% end %>
