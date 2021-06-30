@@ -8,7 +8,7 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 80px;
 }
 
 img:hover {
@@ -17,4 +17,22 @@ img:hover {
 
 .nav-banner {
   width: 150px;
+}
+
+.dropdown-menu {
+  background-color: black;
+  border-style: double;
+  border-color: yellow;
+}
+
+.dropdown-item {
+  background-color: black;
+  color: yellow;
+  font-weight: bolder;
+}
+
+.dropdown-item:hover {
+  background-color: black;
+  color: yellow;
+  font-weight: bolder;
 }
