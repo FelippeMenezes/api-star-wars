@@ -11,3 +11,45 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+body {
+    background-image: url("https://c0.wallpaperflare.com/preview/267/964/934/stars-sky-night.jpg");
+    color: yellow;
+}
+
+a {
+    color: rgb(255, 196, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    color:yellow; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+ul {
+    font-size: 30px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.text-box {
+    background-color: black;
+    color: rgb(255, 196, 1);
+    border-style: double;
+    border-color: yellow;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 15px;
+}
+
+.show-name {
+    padding-top: 50px;
+}
+
+.show {
+    padding: 50px;
+}
