@@ -1,6 +1,10 @@
-<h1>All characters</h1>
-<% @characters.each do |character| %>
-  <%= link_to character_path(character.id) do %>
-    <ul><%= character.name %></ul>
+<div class="container text-center">
+  <div class="show">
+    <h1><strong>All characters</strong></h1>
+  </div>
+  <% @characters.each do |character| %>
+    <%= link_to character_path(character.id) do %>
+      <ul><strong><%= character.name %></strong></ul>
+    <% end %>
   <% end %>
-<% end %>
+</div>

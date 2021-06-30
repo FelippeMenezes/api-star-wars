@@ -1,5 +1,11 @@
-<h2><%= @character.name %></h2>
-<p><%= @character.msg_expression %></p>
-<%= link_to characters_path do %>
-  Back to all characters
-<% end  %>
+<div class="container text-center">
+  <div class="show-name">
+  <h2><strong><%= @character.name %></strong></h2>
+  </div>
+  <div class="text-box">
+    <p><strong><%= @character.msg_expression %></strong></p>
+  </div>
+  <%= link_to characters_path do %>
+   <strong> Back to all characters</strong>
+  <% end  %>
+</div>
