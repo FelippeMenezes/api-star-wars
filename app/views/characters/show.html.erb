@@ -1,10 +1,9 @@
 <div class="container text-center">
-  <div class="show-name">
   <h2><strong><%= @character.name %></strong></h2>
-  </div>
   <div class="text-box">
     <p><strong><%= @character.msg_expression %></strong></p>
   </div>
+  <div class="back-to"></div>
   <%= link_to characters_path do %>
    <strong> Back to all characters</strong>
   <% end  %>
