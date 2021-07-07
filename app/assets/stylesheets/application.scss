@@ -49,8 +49,36 @@ p {
 h1, h2 {
     padding: 25px;
     font-size: 45px;
+    font-weight: bolder;
 }
 
 .back-to {
     padding: 25px;
+}
+
+.box_container {
+    display: flex;
+    justify-content: center;  
+  }
+  
+.box_sign_up {
+    font-weight: bolder;
+    color: yellow;
+    background-color: black;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    width: 335px;
+    box-shadow: -1px 1px 3px white;
+}
+
+.btn {
+    color: yellow;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    color: black;
+    font-weight: bolder;
+    background-color: yellow;
 }
