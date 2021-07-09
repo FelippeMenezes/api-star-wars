@@ -22,17 +22,4 @@ rails g migration CreateJoinTableCharacterVehicle character vehicle
 
 rails g migration CreateJoinTableCharacterStarship character starship
 
-
-RODAR AS MIGRATIONS
-
-rails db:create db:migrate
-
-PARA PREENCHER O BANCO DE DADOS NÃO CHAME O SEED DIRETAMENTE, USE O DB:RESET, PARA FORÇAR O BANCO DE DADOS PARA O ESTADO INICIAL COM IDS VAZIOS.
-
-rails db:reset
-
 O MODEL DE CHARACTERS POSSUI UM MÉTODO PARA ENVIAR UMA MENSAGEM COMPLETA ALIMENTASA ATRAVÈS DA API https://swapi.dev/
-
-Ex.
-
-Luke = Character.find(1) Luke.msg_expression = "Hello! My name is Luke Skywalker. I am Human, height 172 kg, was born in Tatooine in the year of 19BBYand already piloted CR90 corvetteand a X-34 landspeeder"
