@@ -1,6 +1,6 @@
 Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
 
-MODELOS
+⭐ MODELOS ⭐
 
 rails g model character name height mass birth_year
 
@@ -22,4 +22,14 @@ rails g migration CreateJoinTableCharacterVehicle character vehicle
 
 rails g migration CreateJoinTableCharacterStarship character starship
 
-O MODEL DE CHARACTERS POSSUI UM MÉTODO PARA ENVIAR UMA MENSAGEM COMPLETA ALIMENTASA ATRAVÈS DA API https://swapi.dev/
+O MODEL DE CHARACTERS POSSUI UM MÉTODO PARA ENVIAR UMA MENSAGEM COMPLETA ALIMENTASA ATRAVÈS DE BANCO DE DADOS ALIMENTADO PELA API https://swapi.dev/
+
+RUN:
+
+bundle
+
+yarn
+
+rails db:drop db:create db:migrate db:seed 🌱🌱🌱🌱🌱
+
+QUE A FORÇA ESTEJA COM VOCÊ!
