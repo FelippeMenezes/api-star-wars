@@ -8,6 +8,7 @@
 
 require 'json'
 require 'open-uri'
+require 'pry-byebug'
 
 def open_api(url)
     puts "opening #{url}..."
