@@ -8,13 +8,12 @@
 
 require 'json'
 require 'open-uri'
-require 'pry-byebug'
 
 def open_api(url)
     puts "opening #{url}..."
     data_serialized = URI.open(url).read
     data = JSON.parse(data_serialized)
-    return data    
+    return data
 end
 
 def open_api_model(model)
