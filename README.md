@@ -1,3 +1,5 @@
+# API Star Wars <img src="https://cdn.worldvectorlogo.com/logos/star-wars-4.svg" width="50" height="50">
+
 https://api-star-wars-pulsus.herokuapp.com/
 
 Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
