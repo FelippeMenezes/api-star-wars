@@ -29,4 +29,4 @@ rails db:drop db:create db:migrate db:seed 🌱🌱🌱🌱🌱
 
 https://api-star-wars-pulsus.herokuapp.com/
 QUE A FORÇA ESTEJA COM VOCÊ!
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPkc2IlUqA-IQQoK2x06THL7mzHMl7BOU9fa8Rwvjb-ZD14wcgGFIm13yQJNGhyT35k5E&usqp=CAU" width="50" height="50">
+<img src="https://www.pngfind.com/pngs/m/23-238211_yoda-star-wars-transparent-background-png-star-wars.png" width="50" height="50">
