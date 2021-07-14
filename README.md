@@ -26,6 +26,6 @@ RUN:
 -yarn
 
 rails db:drop db:create db:migrate db:seed 🌱🌱🌱🌱🌱
-<img src="https://i.dlpng.com/static/png/6531746_preview.png" width="50" height="50">
+
 https://api-star-wars-pulsus.herokuapp.com/
 May the force be with you!
