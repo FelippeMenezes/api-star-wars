@@ -29,4 +29,4 @@ rails db:drop db:create db:migrate db:seed 🌱🌱🌱🌱🌱
 
 https://api-star-wars-pulsus.herokuapp.com/
 QUE A FORÇA ESTEJA COM VOCÊ!
-<img src="https://i0.wp.com/clipart-library.com/images_k/yoda-head-silhouette/yoda-head-silhouette-5.png" width="50" height="50">
+<img src="https://image.pngaaa.com/458/3399458-middle.png" width="50" height="50">
