@@ -23,9 +23,9 @@ a {
 }
 
 a:hover {
-    color:yellow; 
-    text-decoration:none; 
-    cursor:pointer;  
+    color:yellow;
+    text-decoration:none;
+    cursor:pointer;
 }
 
 ul {
@@ -58,9 +58,9 @@ h1, h2 {
 
 .box_container {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
   }
-  
+
 .box_sign_up {
     font-weight: bolder;
     color: yellow;
@@ -70,6 +70,7 @@ h1, h2 {
     padding: 15px;
     width: 335px;
     box-shadow: -1px 1px 3px white;
+    font-size: 24px;
 }
 
 .btn {
