@@ -1,3 +1,5 @@
+https://api-star-wars-pulsus.herokuapp.com/
+
 Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
 
 ⭐ MODELOS ⭐
@@ -32,4 +34,5 @@ yarn
 
 rails db:drop db:create db:migrate db:seed 🌱🌱🌱🌱🌱
 
+https://api-star-wars-pulsus.herokuapp.com/
 QUE A FORÇA ESTEJA COM VOCÊ!
