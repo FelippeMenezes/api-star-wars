@@ -29,4 +29,4 @@ rails db:drop db:create db:migrate db:seed 🌱🌱🌱🌱🌱
 
 https://api-star-wars-pulsus.herokuapp.com/
 QUE A FORÇA ESTEJA COM VOCÊ!
-<img src="https://www.vhv.rs/dpng/d/30-305025_yoda-png-transparent-png-download.png" width="50" height="50">
+<img src="https://static.wikia.nocookie.net/starwars/images/1/1e/Chewbacca-Fathead.png/revision/latest/scale-to-width-down/1000?cb=20161108052810" width="50" height="50">
