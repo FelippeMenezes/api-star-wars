@@ -6,14 +6,14 @@
 // External libraries
 @import "font-awesome";
 
-// Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "planets/index";
 
 body {
     background-image: url("https://c0.wallpaperflare.com/preview/267/964/934/stars-sky-night.jpg");
     color: yellow;
-      font-family: 'Bungee Outline', cursive;
+    font-family: 'Bungee Outline', cursive;
 
 }
 

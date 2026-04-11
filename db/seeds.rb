@@ -41,8 +41,12 @@ open_api_model('films').each do | film |
 end
 
 puts "Populating Planets..."
-open_api_model('planets').each do | planet |
-    Planet.create(name: planet["name"])
+planets_api_results = open_api_model('planets')
+total_planets = planets_api_results.count
+hues = (0...total_planets).map { |i| (i * 360 / [total_planets, 1].max).to_i }.shuffle
+
+planets_api_results.each_with_index do | planet, index |
+    Planet.create(name: planet["name"], color_hue: hues[index])
 end
 
 puts "Populating Categories (Species)..."
