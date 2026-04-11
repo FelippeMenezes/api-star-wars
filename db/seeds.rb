@@ -46,7 +46,9 @@ total_planets = planets_api_results.count
 hues = (0...total_planets).map { |i| (i * 360 / [total_planets, 1].max).to_i }.shuffle
 
 planets_api_results.each_with_index do | planet, index |
-    Planet.create(name: planet["name"], color_hue: hues[index])
+    p = Planet.find_or_initialize_by(name: planet["name"])
+    p.color_hue = hues[index]
+    p.save!
 end
 
 puts "Populating Categories (Species)..."
