@@ -79,8 +79,7 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
+# ✅ Assim deve ficar — funciona perfeitamente no Render
 production:
   <<: *default
-  database: pulsus_api_star_wars_production
-  username: pulsus_api_star_wars
-  password: <%= ENV['PULSUS_API_STAR_WARS_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
