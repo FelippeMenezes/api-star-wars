@@ -1,0 +1,35 @@
+.planets-container {
+  .header {
+    margin-bottom: 2rem;
+  }
+
+  .planets-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.planets-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 24px;
+
+  .icon-box {
+    width: 60px;
+    text-align: center;
+
+    i {
+      color: var(--planet-color);
+      animation-duration: var(--spin-duration) !important;
+    }
+  }
+
+  .name-box {
+    width: 200px;
+    text-align: left;
+  }
+}

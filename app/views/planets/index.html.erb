@@ -1,0 +1,21 @@
+<div class="container text-center planets-container">
+    <div class="header">
+        <h1><strong>All planets</strong></h1>
+    </div>
+    <div class="planets-list">
+        <% icons = ["fa-earth-americas", "fa-earth-africa", "fa-earth-asia", "fa-earth-europe", "fa-earth-oceania"] %>
+
+        <% @planets.each_with_index do |planet, index| %>
+            <% icon = icons[index % icons.length] %>
+            <% spin_class = [true, false].sample ? "fa-spin" : "fa-spin fa-spin-reverse" %>
+            <div class="planets-row" style="--planet-color: hsl(<%= planet.color_hue || 0 %>, 75%, 50%); --spin-duration: <%= rand(1.0..5.0).round(2) %>s;">
+                <div class="icon-box">
+                    <i class="fa-solid <%= icon %> fa-xl <%= spin_class %>"></i>
+                </div>
+                <div class="name-box">
+                    <strong><%= planet.name %></strong>
+                </div>
+            </div>
+        <% end %>
+    </div>
+</div>
