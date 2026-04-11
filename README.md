@@ -1,6 +1,6 @@
 # API Star Wars <img src="https://cdn.worldvectorlogo.com/logos/star-wars-4.svg" width="50" height="50">
 
-https://api-star-wars-pulsus.herokuapp.com/
+https://api-star-wars-wswr.onrender.com
 
 ## 📷 Preview
 <img src="app/assets/images/carc.png" width="200"/> <img src="app/assets/images/all.png" width="200"/> <img src="app/assets/images/signup.png" width="200"/> 
