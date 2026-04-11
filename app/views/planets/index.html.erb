@@ -1,0 +1,8 @@
+<div class="container text-center">
+    <div class="show">
+        <h1><strong>All planets</strong></h1>
+    </div>
+    <% @planets.each do |planet| %>
+        <ul><strong><%= planet.name %></strong></ul>
+    <% end %>
+</div>
