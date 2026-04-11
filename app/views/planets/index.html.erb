@@ -8,7 +8,9 @@
         <% @planets.each_with_index do |planet, index| %>
             <% icon = icons[index % icons.length] %>
             <% spin_class = [true, false].sample ? "fa-spin" : "fa-spin fa-spin-reverse" %>
-            <div class="planets-row" style="--planet-color: hsl(<%= planet.color_hue || 0 %>, 75%, 50%); --spin-duration: <%= rand(1.0..5.0).round(2) %>s;">
+            <% # Se não tiver cor no DB, gera uma baseada no ID (ID * número primo para espalhar as cores) %>
+            <% hue = planet.color_hue || (planet.id * 137.5).to_i % 360 %>
+            <div class="planets-row" style="--planet-color: hsl(<%= hue %>, 75%, 50%); --spin-duration: <%= rand(1.0..5.0).round(2) %>s;">
                 <div class="icon-box">
                     <i class="fa-solid <%= icon %> fa-xl <%= spin_class %>"></i>
                 </div>
