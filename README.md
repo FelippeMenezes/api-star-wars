@@ -3,7 +3,7 @@
 https://api-star-wars-9ab4.onrender.com/
 
 ## 📷 Preview
-<img src="app/assets/images/carc.png" width="200"/> <img src="app/assets/images/all.png" width="200"/> <img src="app/assets/images/signup.png" width="200"/> 
+<img src="app/assets/images/carac.png" width="200"/> <img src="app/assets/images/plantes.png" width="200"/> <img src="app/assets/images/signup.png" width="200"/> 
 
 Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
 
