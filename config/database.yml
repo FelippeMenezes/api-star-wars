@@ -81,6 +81,5 @@ test:
 #
 production:
   <<: *default
-  database: pulsus_api_star_wars_production
-  username: pulsus_api_star_wars
-  password: <%= ENV['PULSUS_API_STAR_WARS_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+
