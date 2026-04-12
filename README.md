@@ -5,7 +5,7 @@ A comprehensive encyclopedia of the Star Wars universe that consumes the SWAPI (
 [https://api-star-wars-pulsus.herokuapp.com/](https://api-star-wars-pulsus.herokuapp.com/)
 
 ## 📷 Preview
-<img src="app/assets/images/carc.png" width="200"/> <img src="app/assets/images/all.png" width="200"/> <img src="app/assets/images/signup.png" width="200"/>
+<img src="app/assets/images/carac.png" width="200"/> <img src="app/assets/images/planets.png" width="200"/> <img src="app/assets/images/signup.png" width="200"/>
 
 ## 🛠️ Technologies Used
 *   **Ruby on Rails:** Backend framework for the application structure.
