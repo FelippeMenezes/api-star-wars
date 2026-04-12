@@ -8,6 +8,7 @@ ENV["BUNDLE_GEMFILE"] ||= File.expand_path("../../Gemfile",
   Pathname.new(__FILE__).realpath)
 
 require "bundler/setup"
+require "logger" # stdlib Logger must load before Webpacker pulls ActiveSupport (6.1 loads thread_safe_level before requiring "logger")
 
 require "webpacker"
 require "webpacker/dev_server_runner"
