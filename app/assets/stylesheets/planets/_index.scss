@@ -1,0 +1,49 @@
+.container {
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+    grid-column: span 2;
+    margin-bottom: 24px;
+}
+
+.planets-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 16px 1em;
+    width: 100%;
+    padding: 20px;
+}
+
+.planet-row {
+    display: contents;
+
+    p {
+        font-size: 30px;
+    }
+}
+
+.planet-icon {
+    display: inline-block;
+    animation-duration: var(--planet-spin-duration, 2s) !important;
+}
+
+.planet-icon--spin-reverse {
+    animation-direction: reverse !important;
+    -webkit-animation-direction: reverse !important;
+}
+
+i {
+    font-size: 50px;
+}
+
+.planet-icon-container {
+    justify-self: flex-end;
+    padding-right: 50px;
+}
+
+.planet-name-container {
+    justify-self: start;
+}
