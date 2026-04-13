@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get "planets", to: "planets#index"
   get "starships", to: "starships#index"
   get "vehicles", to: "vehicles#index"
+  get "films", to: "films#index"
 end

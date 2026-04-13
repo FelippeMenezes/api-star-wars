@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>All Films</h1>
+  <div class="films-container">
+    <% @films.each do |film| %>
+      <div class="film-row">
+        <div class="film-icon-container">
+          <i
+            class="<%= film.film_icon_class %> film-icon"
+            style="<%= film.icon_style %>"
+            aria-hidden="true"
+          ></i>
+        </div>
+        <div class="film-name-container">
+          <p><%= film.title %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <%= link_to "Back to home", root_path, class: "btn btn-outline-warning mt-4" %>
+</div>
