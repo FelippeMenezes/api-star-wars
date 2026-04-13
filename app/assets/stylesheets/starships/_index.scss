@@ -33,7 +33,12 @@ h1 {
 
 .starship-icon {
   display: inline-block;
-  animation-duration: var(--starship-shake-duration, 3s) !important;
+  animation-name: none !important; // Desativa a animação por padrão
+  animation-duration: var(--starship-shake-duration, 3s) !important; // Mantém a velocidade única
+}
+
+.starship-row:hover .starship-icon {
+  animation-name: fa-shake !important; // Ativa o shake do FontAwesome apenas no hover da linha
 }
 
 i {
