@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>All Vehicles</h1>
+  <div class="vehicles-container">
+    <% @vehicles.each do |vehicle| %>
+      <div class="vehicle-row">
+        <div class="vehicle-icon-container">
+          <i
+            class="fa-solid <%= vehicle.vehicle_icon_class %> vehicle-icon"
+            style="<%= vehicle.icon_style %>"
+            aria-hidden="true"
+          ></i>
+        </div>
+        <div class="vehicle-name-container">
+          <p><%= vehicle.name %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

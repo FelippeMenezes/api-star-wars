@@ -1,0 +1,37 @@
+.vehicles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+.vehicle-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 450px;
+
+    p {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+.vehicle-icon {
+    display: inline-block;
+}
+
+.vehicle-icon-container {
+    flex: 0 0 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.vehicle-name-container {
+    flex: 1;
+    text-align: left;
+}
