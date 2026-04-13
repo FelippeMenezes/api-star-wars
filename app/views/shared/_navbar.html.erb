@@ -16,7 +16,9 @@
         <li class="nav-item dropdown">
           <%= image_tag "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPkc2IlUqA-IQQoK2x06THL7mzHMl7BOU9fa8Rwvjb-ZD14wcgGFIm13yQJNGhyT35k5E&usqp=CAU", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            <%= link_to "Characters", characters_path, class: "dropdown-item" %>
             <%= link_to "Planets", planets_path, class: "dropdown-item" %>
+            <%= link_to "Starships", starships_path, class: "dropdown-item" %>
             <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
           </div>
         </li>
