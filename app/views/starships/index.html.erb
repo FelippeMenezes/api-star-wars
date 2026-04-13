@@ -4,10 +4,7 @@
     <% @starships.each do |starship| %>
       <div class="starship-row">
         <div class="starship-icon-container">
-          <i
-            class="fa-solid <%= starship.icon_class %> <%= starship.shake_classes %> starship-icon"
-            style="<%= starship.icon_style %>"
-            aria-hidden="true"
+          <i class="fa-solid <%= starship.icon_class %> <%= starship.shake_classes %> starship-icon" style="<%= starship.icon_style %>" aria-hidden="true"
           ></i>
         </div>
         <div class="starship-name-container">
