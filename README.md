@@ -2,7 +2,7 @@
 A comprehensive encyclopedia of the Star Wars universe that consumes the SWAPI (Star Wars API) to display characters, planets, movies, and more. Developed as part of the Le Wagon coding bootcamp journey.
 
 ## 🚀 Live Demo
-[https://api-star-wars-pulsus.herokuapp.com/](https://api-star-wars-pulsus.herokuapp.com/)
+[https://api-star-wars-9ab4.onrender.com/](https://api-star-wars-9ab4.onrender.com/)
 
 ## 📷 Preview
 <img src="app/assets/images/carac.png" width="200"/> <img src="app/assets/images/planets.png" width="200"/> <img src="app/assets/images/signup.png" width="200"/>
